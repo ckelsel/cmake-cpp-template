@@ -7,6 +7,7 @@ APT='
 cmake
 libassimp-dev
 libboost-all-dev
+doxygen
 libccd-dev
 libeigen3-dev
 libfcl-dev
@@ -22,7 +23,7 @@ libtinyxml2-dev
 liburdfdom-dev
 liburdfdom-headers-dev
 libopenscenegraph-dev
-libdart-dev
+libdart5-dev
 '
 
 sudo apt-get -qq --yes --force-yes install $APT
